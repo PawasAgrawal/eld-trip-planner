@@ -122,7 +122,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-CORS_ALLOW_ALL_ORIGINS = True
-
+CORS_ALLOWED_ORIGINS = [
+    "https://eld-trip-planner-one.vercel.app/",
+]
 import os
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-w()x)stiv-8dve%)r3)hn31=+!+-a6zxac(e%q@ob#v1#1lke4')
