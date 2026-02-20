@@ -7,7 +7,6 @@ interface RouteMapProps {
 }
 
 export function RouteMap({ result }: RouteMapProps) {
-    console.log(result);
 
     const mapRef = useRef<HTMLDivElement>(null)
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -45,8 +44,6 @@ export function RouteMap({ result }: RouteMapProps) {
             }).addTo(map)
 
             mapInstanceRef.current = map
-            console.log("Map created:", map)
-
             setIsReady(true)
         }
 

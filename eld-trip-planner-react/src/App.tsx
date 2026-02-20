@@ -30,9 +30,6 @@ export default function App() {
         }
     }
 
-    console.log(result);
-
-
     return (
         <main className="min-h-screen bg-background">
             {/* Header */}
