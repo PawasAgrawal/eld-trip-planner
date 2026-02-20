@@ -1,0 +1,214 @@
+﻿npm : npm WARN 
+ERESOLVE overriding 
+peer dependency
+At line:1 char:1
++ npm install 2>&1 | 
+Out-File -Encoding 
+utf8 install.log
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (npm WARN E   
+ RESOL...peer depe    
+ndency:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+npm WARN While 
+resolving: @react-leaf
+let/core@2.1.0
+npm WARN Found: 
+react@19.2.4
+npm WARN 
+node_modules/react
+npm WARN   
+react@"^19.0.0" from 
+the root project
+npm WARN   87 more (@f
+loating-ui/react-dom, 
+@radix-ui/react-accord
+ion, ...)
+npm WARN 
+npm WARN Could not 
+resolve dependency:
+npm WARN peer 
+react@"^18.0.0" from @
+react-leaflet/core@2.1
+.0
+npm WARN node_modules/
+@react-leaflet/core
+npm WARN   @react-leaf
+let/core@"^2.1.0" 
+from 
+react-leaflet@4.2.1
+npm WARN   node_module
+s/react-leaflet
+npm WARN 
+npm WARN Conflicting 
+peer dependency: 
+react@18.3.1
+npm WARN 
+node_modules/react
+npm WARN   peer 
+react@"^18.0.0" from @
+react-leaflet/core@2.1
+.0
+npm WARN   node_module
+s/@react-leaflet/core
+npm WARN     @react-le
+aflet/core@"^2.1.0" 
+from 
+react-leaflet@4.2.1
+npm WARN     node_modu
+les/react-leaflet
+npm WARN ERESOLVE 
+overriding peer 
+dependency
+npm WARN While 
+resolving: @react-leaf
+let/core@2.1.0
+npm WARN Found: 
+react-dom@19.2.4
+npm WARN 
+node_modules/react-dom
+npm WARN   
+react-dom@"^19.0.0" 
+from the root project
+npm WARN   51 more (@f
+loating-ui/react-dom, 
+@radix-ui/react-accord
+ion, ...)
+npm WARN 
+npm WARN Could not 
+resolve dependency:
+npm WARN peer 
+react-dom@"^18.0.0" 
+from @react-leaflet/co
+re@2.1.0
+npm WARN node_modules/
+@react-leaflet/core
+npm WARN   @react-leaf
+let/core@"^2.1.0" 
+from 
+react-leaflet@4.2.1
+npm WARN   node_module
+s/react-leaflet
+npm WARN 
+npm WARN Conflicting 
+peer dependency: 
+react-dom@18.3.1
+npm WARN 
+node_modules/react-dom
+npm WARN   peer 
+react-dom@"^18.0.0" 
+from @react-leaflet/co
+re@2.1.0
+npm WARN   node_module
+s/@react-leaflet/core
+npm WARN     @react-le
+aflet/core@"^2.1.0" 
+from 
+react-leaflet@4.2.1
+npm WARN     node_modu
+les/react-leaflet
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE 
+could not resolve
+npm ERR! 
+npm ERR! While 
+resolving: 
+react-leaflet@4.2.1
+npm ERR! Found: 
+react@19.2.4
+npm ERR! 
+node_modules/react
+npm ERR!   
+react@"^19.0.0" from 
+the root project
+npm ERR!   peer 
+react@">=16.8.0" from 
+@floating-ui/react-dom
+@2.1.7
+npm ERR!   node_module
+s/@floating-ui/react-d
+om
+npm ERR!     @floating
+-ui/react-dom@"^2.0.0"
+ from @radix-ui/react-
+popper@1.2.8
+npm ERR!     node_modu
+les/@radix-ui/react-po
+pper
+npm ERR!       @radix-
+ui/react-popper@"1.2.8
+" from @radix-ui/react
+-hover-card@1.1.15
+npm ERR!       node_mo
+dules/@radix-ui/react-
+hover-card
+npm ERR!         @radi
+x-ui/react-hover-card@
+"1.1.15" from the 
+root project
+npm ERR!       4 more 
+(@radix-ui/react-menu,
+ @radix-ui/react-popov
+er, ...)
+npm ERR!   86 more (@r
+adix-ui/react-accordio
+n, ...)
+npm ERR! 
+npm ERR! Could not 
+resolve dependency:
+npm ERR! peer 
+react@"^18.0.0" from 
+react-leaflet@4.2.1
+npm ERR! node_modules/
+react-leaflet
+npm ERR!   react-leafl
+et@"^4.2.1" from the 
+root project
+npm ERR! 
+npm ERR! Conflicting 
+peer dependency: 
+react@18.3.1
+npm ERR! 
+node_modules/react
+npm ERR!   peer 
+react@"^18.0.0" from 
+react-leaflet@4.2.1
+npm ERR!   node_module
+s/react-leaflet
+npm ERR!     react-lea
+flet@"^4.2.1" from 
+the root project
+npm ERR! 
+npm ERR! Fix the 
+upstream dependency 
+conflict, or retry
+npm ERR! this command 
+with --force or 
+--legacy-peer-deps
+npm ERR! to accept an 
+incorrect (and 
+potentially broken) 
+dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full 
+report see:
+npm ERR! C:\Users\Pawa
+s\AppData\Local\npm-ca
+che\_logs\2026-02-19T1
+0_05_56_654Z-eresolve-
+report.txt
+
+npm ERR! A complete 
+log of this run can 
+be found in: C:\Users\
+Pawas\AppData\Local\np
+m-cache\_logs\2026-02-
+19T10_05_56_654Z-debug
+-0.log

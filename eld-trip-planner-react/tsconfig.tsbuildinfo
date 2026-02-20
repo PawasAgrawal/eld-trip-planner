@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/eld-log-sheet.tsx","./src/components/event-timeline.tsx","./src/components/route-map.tsx","./src/components/stats-row.tsx","./src/components/trip-form.tsx","./src/lib/api.ts","./src/lib/hos-calculator.ts","./src/lib/types.ts","./src/lib/utils.ts"],"version":"5.7.3"}
