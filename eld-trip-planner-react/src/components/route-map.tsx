@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react"
-import { MapPin } from "lucide-react"
 import "leaflet/dist/leaflet.css"
 import type { TripResult } from "@/lib/types"
 
@@ -170,15 +169,6 @@ export function RouteMap({ result }: RouteMapProps) {
     return (
         <div className="rounded-lg border border-border bg-card overflow-hidden relative">
             <div ref={mapRef} className="h-[480px] w-full" />
-
-            {/* {result == null && (
-                <div className="absolute inset-0 flex flex-col items-center justify-center bg-card z-10">
-                    <MapPin className="h-12 w-12 text-muted-foreground mb-3" />
-                    <p className="text-sm text-muted-foreground">
-                        Enter trip details to see route
-                    </p>
-                </div>
-            )} */}
         </div>
     )
 
